@@ -15,34 +15,33 @@ if (Config.WORKTYPE == 'private') {
             
             var image = await axios.get ('https://telegra.ph/file/cd6032c65c27e0510ddad.jpg', {responseType: 'arraybuffer'})
        
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: `╹🔥 ⎝🛡️ ALPHA 🛡️⎠ *𝚂𝚁𝙸 𝙻𝙰𝙽𝙺𝙰 𝙱𝙴𝚂𝚃 𝚆.𝙰 𝙱𝙾𝚃* 🔥╹ 
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: `╹🔥 ⎝🛡️ ALEXA 🛡️⎠ *𝚂𝚁𝙸 𝙻𝙰𝙽𝙺𝙰 𝙱𝙴𝚂𝚃 𝚆.𝙰 𝙱𝙾𝚃* 🔥╹ 
 
-🖲️   *Owner & Founder - Achi Fernando ( Achiya )*
+🖲️   *Owner & Founder - Timasha ( TIMA )*
 
 🖲️   *Language - NODE JS*
 
-🖲️   *Sponser Team - PEARL Team*
+🖲️   *Sponser Team - Queen Alexa Team*
 
 
        💢 *𝘚𝘗𝘌𝘊𝘐𝘈𝘓 𝘛𝘏𝘈𝘕𝘒𝘚* 💢
 
-🍒 *Kasun Ravihara* 🍒
+🍒 *Lushen Tivanka* 🍒
 ➻ *ʙᴏᴛ ɢʀᴀᴘʜɪᴄ ᴅᴇꜱɪɢʜɴᴇʀ*
 
-🍒 *Hiruwa* 🍒
+🍒 *Ashan Navodya* 🍒
 ➻ *Co Owner*
 
-🍒 *Thinura* 🍒
+🍒 *Sathsara* 🍒
 ➻ *Admin Manger*
 
            🍒 *ᴀᴅᴍɪɴꜱ* ™🍒
 
-╹ 🔰 *Hirusha Rukshan* ╹
-╹ 🔰 *Kasun Ravihara*╹
-╹ 🔰 *Thinura*    ╹
+╹ 🔰 *Sathsara* ╹
+╹ 🔰 *Lushen Tivanka*╹
+╹ 🔰 *Ashan Navodaya*    ╹
   
-  https://api.whatsapp.com/message/STKRUWM327GCG1
-
+  
    🔰 *ꜰᴏʀ 24/7 ʜᴇʟᴘ ᴍꜱɢ ᴍᴇ* 🔰`})
 
     }));
@@ -53,31 +52,31 @@ else if (Config.WORKTYPE == 'public') {
 
           
             var image = await axios.get ('https://telegra.ph/file/cd6032c65c27e0510ddad.jpg', {responseType: 'arraybuffer'})
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: `╹🔥 ⎝🛡️ ALPHA 🛡️⎠ *𝚂𝚁𝙸 𝙻𝙰𝙽𝙺𝙰 𝙱𝙴𝚂𝚃 𝚆.𝙰 𝙱𝙾𝚃* 🔥╹ 
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: `╹🔥 ⎝🛡️ ALEXA🛡️⎠ *𝚂𝚁𝙸 𝙻𝙰𝙽𝙺𝙰 𝙱𝙴𝚂𝚃 𝚆.𝙰 𝙱𝙾𝚃* 🔥╹ 
 
-🖲️   *Owner & Founder - Achi Fernando ( Achiya )*
+🖲️   *Owner & Founder Timasha ( TIMA )*
 
 🖲️   *Language - NODE JS*
 
-🖲️   *Sponser Team - PEARL Team*
+🖲️   *Sponser Team - Queen Alexa Team*
 
 
        💢 *𝘚𝘗𝘌𝘊𝘐𝘈𝘓 𝘛𝘏𝘈𝘕𝘒𝘚* 💢
 
-🍒 *Kasun Ravihara* 🍒
+🍒 *Lushen Tivanka* 🍒
 ➻ *ʙᴏᴛ ɢʀᴀᴘʜɪᴄ ᴅᴇꜱɪɢʜɴᴇʀ*
 
-🍒 *Hiruwa* 🍒
+🍒 Ashan Navodya* 🍒
 ➻ *Co Owner*
 
-🍒 *Thinura* 🍒
+🍒 *Sathsara* 🍒
 ➻ *Admin Manger*
 
            🍒 *ᴀᴅᴍɪɴꜱ* ™🍒
 
-╹ 🔰 *Hirusha Rukshan* ╹
-╹ 🔰 *Kasun Ravihara*╹
-╹ 🔰 *Thinura*    ╹
+╹ 🔰 *Sathsara* ╹
+╹ 🔰 *Lushen Tivanka*╹
+╹ 🔰 *Ashan Navodya*    ╹
   
   https://api.whatsapp.com/message/STKRUWM327GCG1
 
@@ -89,31 +88,31 @@ else if (Config.WORKTYPE == 'public') {
 
           
             var image = await axios.get ('https://telegra.ph/file/cd6032c65c27e0510ddad.jpg', {responseType: 'arraybuffer'})
-        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: `╹🔥 ⎝🛡️ ALPHA 🛡️⎠ *𝚂𝚁𝙸 𝙻𝙰𝙽𝙺𝙰 𝙱𝙴𝚂𝚃 𝚆.𝙰 𝙱𝙾𝚃* 🔥╹ 
+        await message.client.sendMessage (message.jid, Buffer.from (image.data), MessageType.image, {mimetype: Mimetype.png, caption: `╹🔥 ⎝🛡️ ALEXA 🛡️⎠ *𝚂𝚁𝙸 𝙻𝙰𝙽𝙺𝙰 𝙱𝙴𝚂𝚃 𝚆.𝙰 𝙱𝙾𝚃* 🔥╹ 
 
-🖲️   *Owner & Founder - Achi Fernando ( Achiya )*
+🖲️   *Owner & Founder - Timasha(TIMA)*
 
 🖲️   *Language - NODE JS*
 
-🖲️   *Sponser Team - PEARL Team*
+🖲️   *Sponser Team - Queen Alexa Team*
 
 
        💢 *𝘚𝘗𝘌𝘊𝘐𝘈𝘓 𝘛𝘏𝘈𝘕𝘒𝘚* 💢
 
-🍒 *Kasun Ravihara* 🍒
+🍒 *Lushen Tivanka* 🍒
 ➻ *ʙᴏᴛ ɢʀᴀᴘʜɪᴄ ᴅᴇꜱɪɢʜɴᴇʀ*
 
-🍒 *Hiruwa* 🍒
+🍒 *Ashan Navodya* 🍒
 ➻ *Co Owner*
 
-🍒 *Thinura* 🍒
+🍒 *Sathsara* 🍒
 ➻ *Admin Manger*
 
            🍒 *ᴀᴅᴍɪɴꜱ* ™🍒
 
-╹ 🔰 *Hirusha Rukshan* ╹
-╹ 🔰 *Kasun Ravihara*╹
-╹ 🔰 *Thinura*    ╹
+╹ 🔰 *Lushen Tivanka* ╹
+╹ 🔰 *Ashan Navodya*╹
+╹ 🔰 *Sathsara*    ╹
   
   https://api.whatsapp.com/message/STKRUWM327GCG1
 
