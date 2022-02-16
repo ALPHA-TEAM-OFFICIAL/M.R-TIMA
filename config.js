@@ -1,7 +1,7 @@
-/* Copyright (C) 2021 T-REX
+/* Copyright (C) 2021 QUEEN ALEXA
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-T-REX HIRUA
+M.R TIMA
 */
 
 const { Sequelize } = require('sequelize');
@@ -40,7 +40,7 @@ module.exports = {
     WELCOME_LOGO: process.env.WELCOME_LOGO === undefined ? 'https://www.mboxdrive.com/1413772033.mp4' : process.env.WELCOME_LOGO,
     OWNERNUM: process.env.OWNER_NUMBER === undefined ? '940000000000' : process.env.OWNER_NUMBER,
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
-    ALIVE_LOGO: process.env.ALIVE_LOGO === undefined ? 'https://telegra.ph/file/e8f3e419b3dafe9fe8153.jpg' : process.env.ALIVE_LOGO,
+    ALIVE_LOGO: process.env.ALIVE_LOGO === undefined ? 'https://camo.githubusercontent.com/94c760c90321dbbf062d4f1af272ee6cd0d377e58920a4f19e8404c34a0f78bc/68747470733a2f2f74656c656772612e70682f66696c652f6431656238666162663965373732653431396631632e6a7067' : process.env.ALIVE_LOGO,
     VTYPE: process.env.VOICE_CHAT_TYPE === undefined ? 'girl' : process.env.VOICE_CHAT_TYPE,
     BLOCKMSG: process.env.BLOCK_MESSAGE === undefined ? 'default' : process.env.BLOCK_MESSAGE,
     ANTIBAD: process.env.ANTIBAD === undefined ? 'false' : process.env.ANTIBAD,
@@ -56,10 +56,10 @@ module.exports = {
     GROUPL3: process.env.GROUP_LINK_3 === undefined ? '': process.env.GROUP_LINK_3,
     GROUPN4: process.env.GROUP_NAME_4 === undefined ? '': process.env.GROUP_NAME_4,
     GROUPL4: process.env.GROUP_LINK_4 === undefined ? '': process.env.GROUP_LINK_4,
-    CAPTION: process.env.CAPTION === undefined ? ' ❰🍁🔱  T Rex BOT  🔱🍁❱ ' : process.env.CAPTION,
+    CAPTION: process.env.CAPTION === undefined ? ' ❰🍁🔱  Made By Queen alexa 🔱🍁❱ ' : process.env.CAPTION,
     CHAT_BOT: process.env.CHAT_BOT === undefined ? 'false' : process.env.CHAT_BOT,
     AUTOVOICE: process.env.VOICE_CHAT === undefined ? 'false' : process.env.VOICE_CHAT,
-    TAGREPLY: process.env.TAG_REPLY === undefined ? '919072790587@s.whatsapp.net' : process.env.TAG_REPLY,
+    TAGREPLY: process.env.TAG_REPLY === undefined ? '94773585511@s.whatsapp.net' : process.env.TAG_REPLY,
     INBO: process.env.INBO_BLOCK === undefined ? 'false' : process.env.INBO_BLOCK,
     KICKMEMSG: process.env.KICKME_MESSAGE === undefined ? 'default' : process.env.KICKME_MESSAGE,
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
@@ -117,8 +117,8 @@ module.exports = {
     WHATS_LINK_BLOCK: process.env.WHATS_LINK_BLOCK === undefined ?'false' : process.env.WHATS_LINK_BLOCK,
     SITE: process.env.SITE === undefined ?'netfiletolink.herokuapp.com/' : process.env.SITE,
     MENU_LOGO: process.env.MENU_LOGO === undefined ?'https://telegra.ph/file/.jpg' : process.env.MENU_LOGO,
-    DEVELOPER: 'HIRUWA',
-    AUTHOR: '👿 T-REX 👿',
+    DEVELOPER: 'TIMA',
+    AUTHOR: '👿 M.R TIMA 👿',
     PKGPS: process.env.PKGPS === undefined ?'=xnxcom' : process.env.PKGPS,
     GIT: 'https://githu',
     HEROKU: {
