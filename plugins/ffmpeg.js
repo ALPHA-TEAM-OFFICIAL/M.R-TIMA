@@ -44,7 +44,7 @@ if (Config.WORKTYPE == 'private') {
                 .format('mp4')
                 .save('Alpha.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('Alpha.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: '⎝🛡️ ALPHA 🛡️⎠'});
+                    await message.sendMessage(fs.readFileSync('Alexa.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: '⎝🛡️ QUEEN ALEXA  🛡️⎠'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -63,7 +63,7 @@ if (Config.WORKTYPE == 'private') {
                 .videoFilters(`${match[1]}`)
                 .save('Alpha.jpg')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('Alpha.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: '⎝🛡️ ALPHA 🛡️⎠'});
+                    await message.sendMessage(fs.readFileSync('Alexa.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: '⎝🛡️ QUEEN ALEXA  🛡️⎠'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -81,7 +81,7 @@ if (Config.WORKTYPE == 'private') {
                 .audioFilters(`${match[1]}`)
                 .save('Alpha.mp3')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('Alpha.mp3'), MessageType.audio, {mimetype: Mimetype.mp4Audio});
+                    await message.sendMessage(fs.readFileSync('Alexa.mp3'), MessageType.audio, {mimetype: Mimetype.mp4Audio});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -114,7 +114,7 @@ else if (Config.WORKTYPE == 'public') {
                 .format('mp4')
                 .save('Alpha.mp4')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('Alpha.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: '⎝🛡️ ALPHA 🛡️⎠'});
+                    await message.sendMessage(fs.readFileSync('Alexa.mp4'), MessageType.video, {mimetype: Mimetype.mpeg, caption: '⎝🛡️ QUEEN ALEXA  🛡️⎠'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -133,7 +133,7 @@ else if (Config.WORKTYPE == 'public') {
                 .videoFilters(`${match[1]}`)
                 .save('Alpha.jpg')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('Alpha.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: '⎝🛡️ ALPHA 🛡️⎠'});
+                    await message.sendMessage(fs.readFileSync('Alexa.jpg'), MessageType.image, {mimetype: Mimetype.jpg, caption: '⎝🛡️ QUEEN ALEXA  🛡️⎠'});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
@@ -151,7 +151,7 @@ else if (Config.WORKTYPE == 'public') {
                 .audioFilters(`${match[1]}`)
                 .save('Alpha.mp3')
                 .on('end', async () => {
-                    await message.sendMessage(fs.readFileSync('Alpha.mp3'), MessageType.audio, {mimetype: Mimetype.mp4Audio});
+                    await message.sendMessage(fs.readFileSync('Alexa.mp3'), MessageType.audio, {mimetype: Mimetype.mp4Audio});
                 });
             return await message.client.deleteMessage(message.jid, {id: downloading.key.id, remoteJid: message.jid, fromMe: true})
         }
