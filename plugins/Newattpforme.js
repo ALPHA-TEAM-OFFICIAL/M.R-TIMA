@@ -13,7 +13,7 @@ if (Config.WORKTYPE == 'public') {
         var ttinullimage = await axios.get(`https://telegra.ph/file/10bdbaab2d4d163e2affa.jpg`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  `╔═════════════════════╗
-║      ❰🍁🔱  T Rex BOT  🔱🍁❱  
+║      ❰🍁🔱  QUEEN ALEXA  BOT  🔱🍁❱  
 ║        ║🍁╚ATTP PACK╝🍁║
 ║
 ╠═➢ 🍁.01attp      ❴your text❵
@@ -97,9 +97,9 @@ if (Config.WORKTYPE == 'public') {
 ╠═➢ 🍁.40attp       ❴your text❵
 ║send Text logo
 ║
-║▷Creator: HIRUSHA
+║▷Creator: TIMASHA
 ║
-║ ❰🍁🔱  T Rex BOT  🔱🍁❱  
+║ ❰🍁🔱   QUEEN ALEXA  🔱🍁❱  
 ╚═════════════════════╝
 `,quoted: message.data})
 
@@ -112,7 +112,7 @@ if (Config.WORKTYPE == 'public') {
 
         var rex = await axios.
         get(`https://bx-hunter.herokuapp.com/api/flamingtext/blackbird?text=${encodeURIComponent(match[1])}&apikey=Ikyy69`, { responseType: 'arraybuffer' })
-        await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.CAPTION+'\n\n   ❰🍁🔱  T Rex BOT  🔱🍁❱ ',quoted: message.data})
+        await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.CAPTION+'\n\n   ❰🍁🔱  QUEEN ALEXA  BOT  🔱🍁❱ ',quoted: message.data})
 
     }));
    
@@ -122,7 +122,7 @@ if (Config.WORKTYPE == 'public') {
 
         var rex = await axios.
         get(`https://bx-hunter.herokuapp.com/api/flamingtext/text3d?text=${encodeURIComponent(match[1])}&apikey=Ikyy69`, { responseType: 'arraybuffer' })
-        await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.CAPTION+'\n\n   ❰🍁🔱  T Rex BOT  🔱🍁❱ ',quoted: message.data})
+        await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.CAPTION+'\n\n   ❰🍁🔱  QUEEN ALEXA  BOT  🔱🍁❱ ',quoted: message.data})
 
     }));
    
@@ -132,7 +132,7 @@ if (Config.WORKTYPE == 'public') {
 
         var rex = await axios.
         get(`https://bx-hunter.herokuapp.com/api/flamingtext/wroom?text=${encodeURIComponent(match[1])}&apikey=Ikyy69`, { responseType: 'arraybuffer' })
-        await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.CAPTION+'\n\n   ❰🍁🔱  T Rex BOT  🔱🍁❱ ',quoted: message.data})
+        await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.CAPTION+'\n\n   ❰🍁🔱 QUEEN ALEXA   BOT  🔱🍁❱ ',quoted: message.data})
 
     }));
    
@@ -142,7 +142,7 @@ if (Config.WORKTYPE == 'public') {
 
         var rex = await axios.
         get(`https://bx-hunter.herokuapp.com/api/flamingtext/surfboard?text=${encodeURIComponent(match[1])}&apikey=Ikyy69`, { responseType: 'arraybuffer' })
-        await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.CAPTION+'\n\n   ❰🍁🔱  T Rex BOT  🔱🍁❱ ',quoted: message.data})
+        await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.CAPTION+'\n\n   ❰🍁🔱 QUEEN ALEXA  BOT  🔱🍁❱ ',quoted: message.data})
 
     }));
    
@@ -152,7 +152,7 @@ if (Config.WORKTYPE == 'public') {
 
         var rex = await axios.
         get(`https://bx-hunter.herokuapp.com/api/flamingtext/orlando?text=${encodeURIComponent(match[1])}&apikey=Ikyy69`, { responseType: 'arraybuffer' })
-        await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.CAPTION+'\n\n   ❰🍁🔱  T Rex BOT  🔱🍁❱ ',quoted: message.data})
+        await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.CAPTION+'\n\n   ❰🍁🔱 QUEEN ALEXA   BOT  🔱🍁❱ ',quoted: message.data})
 
     }));
    
@@ -162,7 +162,7 @@ if (Config.WORKTYPE == 'public') {
 
         var rex = await axios.
         get(`https://bx-hunter.herokuapp.com/api/flamingtext/matrix?text=${encodeURIComponent(match[1])}&apikey=Ikyy69`, { responseType: 'arraybuffer' })
-        await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.CAPTION+'\n\n   ❰🍁🔱  T Rex BOT  🔱🍁❱ ',quoted: message.data})
+        await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.CAPTION+'\n\n   ❰🍁🔱  QUEEN ALEXA  BOT  🔱🍁❱ ',quoted: message.data})
 
     }));
    
@@ -172,7 +172,7 @@ if (Config.WORKTYPE == 'public') {
 
         var rex = await axios.
         get(`https://bx-hunter.herokuapp.com/api/flamingtext/minions?text=${encodeURIComponent(match[1])}&apikey=Ikyy69`, { responseType: 'arraybuffer' })
-        await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.CAPTION+'\n\n   ❰🍁🔱  T Rex BOT  🔱🍁❱ ',quoted: message.data})
+        await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.CAPTION+'\n\n   ❰🍁🔱 QUEEN ALEXA   BOT  🔱🍁❱ ',quoted: message.data})
 
     }));
    
@@ -182,7 +182,7 @@ if (Config.WORKTYPE == 'public') {
 
         var rex = await axios.
         get(`https://bx-hunter.herokuapp.com/api/flamingtext/hbd?text=${encodeURIComponent(match[1])}&apikey=Ikyy69`, { responseType: 'arraybuffer' })
-        await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.CAPTION+'\n\n   ❰🍁🔱  T Rex BOT  🔱🍁❱ ',quoted: message.data})
+        await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.CAPTION+'\n\n   ❰🍁🔱  QUEEN ALEXA  BOT  🔱🍁❱ ',quoted: message.data})
 
     }));
    
@@ -202,7 +202,7 @@ if (Config.WORKTYPE == 'public') {
 
         var rex = await axios.
         get(`https://bx-hunter.herokuapp.com/api/flamingtext/express?text=${encodeURIComponent(match[1])}&apikey=Ikyy69`, { responseType: 'arraybuffer' })
-        await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.CAPTION+'\n\n   ❰🍁🔱  T Rex BOT  🔱🍁❱ ',quoted: message.data})
+        await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.CAPTION+'\n\n   ❰🍁🔱 QUEEN ALEXA   BOT  🔱🍁❱ ',quoted: message.data})
 
     }));
    
@@ -212,7 +212,7 @@ if (Config.WORKTYPE == 'public') {
 
         var rex = await axios.
         get(`https://bx-hunter.herokuapp.com/api/flamingtext/google?text=${encodeURIComponent(match[1])}&apikey=Ikyy69`, { responseType: 'arraybuffer' })
-        await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.CAPTION+'\n\n   ❰🍁🔱  T Rex BOT  🔱🍁❱ ',quoted: message.data})
+        await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.CAPTION+'\n\n   ❰🍁🔱 QUEEN ALEXA  BOT  🔱🍁❱ ',quoted: message.data})
     }));
       
      Trex.addrex({ pattern: '12attp ?(.*)', fromMe: true,dontAdCommandList: true }, (async (message, match) => {
@@ -221,7 +221,7 @@ if (Config.WORKTYPE == 'public') {
 
         var rex = await axios.
         get(`https://bx-hunter.herokuapp.com/api/flamingtext/glow?text=${encodeURIComponent(match[1])}&apikey=Ikyy69`, { responseType: 'arraybuffer' })
-        await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.CAPTION+'\n\n   ❰🍁🔱  T Rex BOT  🔱🍁❱ ',quoted: message.data})
+        await message.sendMessage(Buffer.from(rex.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  Config.CAPTION+'\n\n   ❰🍁🔱 QUEEN ALEXA   BOT  🔱🍁❱ ',quoted: message.data})
 
     }));
       
