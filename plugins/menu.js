@@ -21,7 +21,7 @@ if (Config.WORKTYPE == 'private') {
         
 if (Config.BTN == 'btn') {
 
-Trex.addrex({pattern: 'alpha', fromMe: false}, (async (message, match) => {
+Trex.addrex({pattern: 'tima', fromMe: false}, (async (message, match) => {
 // alexa LIST👿
         var time = new Date().toLocaleString('HI', { timeZone: Config.TIME }).split(' ')[1]
 
