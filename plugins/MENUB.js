@@ -3,7 +3,7 @@
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 HIRUWA - TREX
-උස්සන්නද ආවෙ අම්මට හුකෝගන්නෙ නැතුව පල පොන්නයා 😂👿
+
 */
 
 const Trex = require('../events');
@@ -43,7 +43,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
     const rows = [
         {title: '⎝🛡️ ALL MENU 🛡️⎠', description: `▷▷▷▷▷▷\n\n\n
  ╭────────────────
- │ ⎝🛡️ ALPHA 🛡️⎠
+ │ ⎝🛡️ QUEEN ALEXA 🛡️⎠
  ╰────────────────
  ╭────────────────
  │ Hello ▷ Dear
@@ -60,7 +60,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │       🖲️  BOT  🖲️ 
  │        ──────────
  │
- │▷ .alpha
+ │▷ .tima
  │▷ .alive
  │▷ .admin [ for owner ]
  │▷ .version
@@ -147,7 +147,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │
  │▷ .Softstore
  │ 
- │   By Achi Bro lk      
+ │   By Timasha      
  │
  ╰────────────────
  ╭────────────────
@@ -161,7 +161,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │    your whatsapp 
  │ name,profile pic,bio
  │      easy with
- │      Alpha BOT
+ │      Queen Alexa BOT
  ╰────────────────
  ╭────────────────
  │   🖲️ Search 🖲️ 
@@ -226,19 +226,19 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  ╰────────────────
  
           🖲️ POWERD BY 🖲️
-          ⎝🛡️ ALPHA 🛡️⎠
-     🖲️       Achiya        🖲️
+          ⎝🛡️  QUEEN ALEXA  🛡️⎠
+     🖲️       TIMA        🖲️
 ` , rowId:"rowid1"},
-        {title: '⎝🛡️ ADVANCE MENU 🛡️⎠', description:`▷▷▷▷▷▷\n\n\n
+        {title: '⎝🛡️ FULL COMMANDS MENU 🛡️⎠', description:`▷▷▷▷▷▷\n\n\n
 ╔═══════════════════════╗
-         ⎝🛡️ ALPHA 🛡️⎠ 
+         ⎝🛡️  QUEEN ALEXA  🛡️⎠ 
 ═════════════════════════
 🖲️ Command: °.xmedia°
 ➢ Description: °A plugin that have 25 media tools.°
 🖲️ Command: °.admin°
 ➢ Description: °To get the admin command list°
-🖲️ Command: °.alpha°
-➢ Description:°all commands°
+🖲️ Command: °.tima°
+➢ Description:°get all commands°
 🖲️ Command: °.lovepack°
 ➢ Description: °Send Love message to gf/bf.°
 🖲️ Command; °.grp°
@@ -295,9 +295,9 @@ Example : .covid Sri Lanka°
 🖲️ Command: °.video°
 ➢ Description: °Downloading videos from YouTube°
 🖲️ Command: °.insta°
-➢ Description: °🖲️➢ ⎝🛡️ ALPHA 🛡️⎠  Download instagram videos.°
+➢ Description: °🖲️➢ ⎝🛡️  QUEEN ALEXA  🛡️⎠  Download instagram videos.°
 🖲️ Command: °.fb°
-➢ Description: °🖲️➢ ⎝🛡️ ALPHA 🛡️⎠  Download Facebook videos.°
+➢ Description: °🖲️➢ ⎝🛡️  QUEEN ALEXA  🛡️⎠  Download Facebook videos.°
 🖲️ Command: °.trt°
 ➢ Description: °It translates with Google Translator. You must mention any message.°
 ⌨️ Example: °.trt en si (From English to Sinhala)°
@@ -320,9 +320,7 @@ Example : .covid Sri Lanka°
 🖲️ Command: °.github°
 ➢ Description: °Stalk github profiles of given username.
 ⌨️ Example: .github TRex°
-🖲️ Command: °.tk°
-➢ Description: °Stalk tiktok profile to a given username.
-⌨️ Example: .tK Achiya66°
+
 🖲️ Command: °.ss°
 ➢ Description: °Take screenshot of given links°
 🖲️ Command: °.mod°
@@ -376,7 +374,7 @@ Example : .covid Sri Lanka°
 `, rowId:"rowid3"},
         {title: '⎝🛡️ Love Pack 🛡️⎠', description: `▷▷▷▷▷▷\n\n\n
 ╔═══════════════════════╗
-                 ⎝🛡️ ALPHA 🛡️⎠
+                 ⎝🛡️  QUEEN ALEXA  🛡️⎠
 ═════════════════════════
                   ♥ LOVE PACK ♥
                   
@@ -398,13 +396,13 @@ Example : .covid Sri Lanka°
 ➢ Description :  Send I need Girl friend message..
 ♥ Command : need bf
 ➢ Description :  Send i need Boy friend message..
-      ╔═⎝🛡️ ALPHA 🛡️⎠═╗
+      ╔═⎝🛡️  QUEEN ALEXA  🛡️⎠═╗
        ╚ ENJOY WITH US ╝
 ╚══════════════════════
 `, rowId:"rowid4"},
         {title: '⎝🛡️ FF PACK 🛡️⎠', description:`▷▷▷▷▷▷\n\n\n
 ╔═════════════════════╗
-║         ⎝🛡️ ALPHA 🛡️⎠  
+║         ⎝🛡️  QUEEN ALEXA  🛡️⎠  
 ║         ║🖲️╚FF PACK╝🖲️║
 ║
 ╠═➢ 🖲️.ff9       ❴your text❵
@@ -507,14 +505,14 @@ Example : .covid Sri Lanka°
 ║send free fire logo
 ║
 ║
-║▷Creator: HIRUSHA
+║▷Creator: TIMASHA
 ║
-║   ⎝🛡️ ALPHA 🛡️⎠ 
+║   ⎝🛡️  QUEEN ALEXA  🛡️⎠ 
 ╚═════════════════════╝
 `, rowId:"rowid5"},
         {title: '⎝🛡️ Software Store 🛡️⎠', description: `▷▷▷▷▷▷\n\n\n
 ╭───────────────
-│  🖲️ SOFTWARE STORE BY ACHI BRO LK 🖲️
+│  🖲️ SOFTWARE STORE BY ASHAN NAVODYA 🖲️
 │
 │  ◎Adobe Editing Softwares type =.adobe
 │  ◎Wondershare Softwares type =.ws
@@ -524,22 +522,22 @@ Example : .covid Sri Lanka°
 │  ◎Android Emulator Form Pc =.em
 │
 │         🖲️POWERD BY🖲️
-│        ⎝🛡️ ALPHA 🛡️⎠
+│        ⎝🛡️  QUEEN ALEXA  🛡️⎠
 ╰──────────────
 `, rowId:"rowid6"},
         {title: '⎝🛡️ Apk Store 🛡️⎠', description: `▷▷▷▷▷▷\n\n\n
 ╔═════════════════════╗
-║         ⎝🛡️ ALPHA 🛡️⎠   
+║         ⎝🛡️  QUEEN ALEXA  🛡️⎠   
 ║        ║🖲️╚APK STORE╝🖲️║
 ║
-║    Coming Soon
+║    Coming Soon APK Store
 ║
-║ ⎝🛡️ ALPHA 🛡️⎠   
+║ @ASHAN NAVODYA  
 ╚═════════════════════╝
 `, rowId:"rowid20"},
-        {title: '⎝🛡️ DOWNLOADER 🛡️⎠', description: `▷▷▷▷▷▷\n\n\n
+        {title: '⎝🛡️  QUEEN ALEXA  DOWNLOADER 🛡️⎠', description: `▷▷▷▷▷▷\n\n\n
  ╭────────────────
- │   🖲️  Downloader 🖲️
+ │   🖲️  QUEEN ALEXA  Downloader 🖲️
  │
  │▷ .video { vid link }
  │▷ .down { status down }
@@ -554,21 +552,22 @@ Example : .covid Sri Lanka°
  │
  ╰────────────────
 `, rowId:"rowid9"},
-        {title: '⎝🛡️ABOUT Alpha BOT 🛡️⎠', description:`▷▷▷▷▷▷\n\n\n
-🖲️ Developer : Achiya
-🖲️ Bot             : ⎝🛡️ ALPHA 🛡️⎠ WhatsApp User Bot v4.0.0
+        {title: '⎝🛡️ABOUT Queen Alexa BOT 🛡️⎠', description:`▷▷▷▷▷▷\n\n\n
+🖲️ Developer : TIMA
+🖲️ Bot             : ⎝🛡️  QUEEN ALEXA  🛡️⎠ WhatsApp User Bot v4.0.0
 🖲️ Language : Sinhala & English
-🖲️ Sponcer Team : PEARL TEAM SRI LANKA
+🖲️ Sponcer Team : LOVE BOYS 
 🖲️ Develop language : Node js
-🖲️ Developer no : http://wa.me/+94720603183
+🖲️ Developer no : http://wa.me/+94715264791
+🖲️ Bot Co Owner: ASHAN NAVODYA
 `, rowId:"rowid2"}
        ]
        
-       const sections = [{title: "⎝🛡️ ALPHA 🛡️⎠ CMD 🖲️ PANEL. 📛", rows: rows}]
+       const sections = [{title: "⎝🛡️ QUEEN ALEXA  🛡️⎠ QUEEN ALEXA  CMD 🖲️ 📛", rows: rows}]
        
        const button = {
-        buttonText: 'Click Me▷',
-        description: "⎝🛡️ ALPHA 🛡️⎠ CMD 🖲️ PANEL. 📛",
+        buttonText: 'Click Here▷',
+        description: "⎝🛡️ QUEEN ALEXA  🛡️⎠ QUEEN ALEXA  CMD 🖲️  📛",
         sections: sections,
         listType: 1
        }
@@ -606,7 +605,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
     const rows = [
         {title: '⎝🛡️ ALL MENU 🛡️⎠ ', description: `▷▷▷▷▷▷\n\n\n
 ╭────────────────
- │ ⎝🛡️ ALPHA 🛡️⎠
+ │ ⎝🛡️ QUEEN ALEXA  🛡️⎠
  ╰────────────────
  ╭────────────────
  │ Hello ▷ Dear
@@ -623,7 +622,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │       🖲️  BOT  🖲️ 
  │        ──────────
  │
- │▷ .alpha
+ │▷ .tima
  │▷ .alive
  │▷ .admin [ for owner ]
  │▷ .version
@@ -711,7 +710,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │
  │▷ .Softstore
  │ 
- │   By Achi Bro lk      
+ │   By ASHAN NAVODYA      
  │
  ╰────────────────
  ╭────────────────
@@ -725,7 +724,7 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  │    your whatsapp 
  │ name,profile pic,bio
  │      easy with
- │      Alpha BOT
+ │      Queen Alexa BOT
  ╰────────────────
  ╭────────────────
  │   🖲️ Search 🖲️ 
@@ -790,19 +789,19 @@ if (hrs >= 19 && hrs <= 24) wish = '*ɢᴏᴏᴅ ɴɪɢʜᴛ 🌙*'
  ╰────────────────
  
           🖲️ POWERD BY 🖲️
-          ⎝🛡️ ALPHA 🛡️⎠
-     🖲️       Achiya        🖲️
+          ⎝🛡️ QUEEN ALEXA  🛡️⎠
+     🖲️       TIMA        🖲️
 ` , rowId:"rowid1"},
-        {title: '⎝🛡️ ADVANCE MENU 🛡️⎠', description:`▷▷▷▷▷▷\n\n\n
+        {title: '⎝🛡️ FULL COMMANDS MENU 🛡️⎠', description:`▷▷▷▷▷▷\n\n\n
 ╔═══════════════════════╗
-         ⎝🛡️ ALPHA 🛡️⎠ 
+         ⎝🛡️ QUEEN ALEXA  🛡️⎠ 
 ═════════════════════════
 🖲️ Command: °.xmedia°
 ➢ Description: °A plugin that have 25 media tools.°
 🖲️ Command: °.admin°
 ➢ Description: °To get the admin command list°
-🖲️ Command: °.alpha°
-➢ Description:°all commands°
+🖲️ Command: °.tima°
+➢ Description:°get all commands°
 🖲️ Command: °.lovepack°
 ➢ Description: °Send Love message to gf/bf.°
 🖲️ Command; °.grp°
@@ -859,9 +858,9 @@ Example : .covid Sri Lanka°
 🖲️ Command: °.video°
 ➢ Description: °Downloading videos from YouTube°
 🖲️ Command: °.insta°
-➢ Description: °🖲️➢ ⎝🛡️ ALPHA 🛡️⎠  Download instagram videos.°
+➢ Description: °🖲️➢ ⎝🛡️ QUEEN ALEXA  🛡️⎠  Download instagram videos.°
 🖲️ Command: °.fb°
-➢ Description: °🖲️➢ ⎝🛡️ ALPHA 🛡️⎠  Download Facebook videos.°
+➢ Description: °🖲️➢ ⎝🛡️ QUEEN ALEXA  🛡️⎠  Download Facebook videos.°
 🖲️ Command: °.trt°
 ➢ Description: °It translates with Google Translator. You must mention any message.°
 ⌨️ Example: °.trt en si (From English to Sinhala)°
@@ -883,10 +882,8 @@ Example : .covid Sri Lanka°
 ➢ Description: °Get a link to the user chat.°
 🖲️ Command: °.github°
 ➢ Description: °Stalk github profiles of given username.
-⌨️ Example: .github TRex°
-🖲️ Command: °.tk°
-➢ Description: °Stalk tiktok profile to a given username.
-⌨️ Example: .tK Achiya66°
+⌨️ Example: .github QUEEN ALEXA °
+
 🖲️ Command: °.ss°
 ➢ Description: °Take screenshot of given links°
 🖲️ Command: °.mod°
@@ -940,7 +937,7 @@ Example : .covid Sri Lanka°
 `, rowId:"rowid3"},
         {title: '⎝🛡️ Love Pack 🛡️⎠', description: `▷▷▷▷▷▷\n\n\n
 ╔═══════════════════════╗
-                 ⎝🛡️ ALPHA 🛡️⎠
+                 ⎝🛡️ QUEEN ALEXA  🛡️⎠
 ═════════════════════════
                   ♥ LOVE PACK ♥
                   
@@ -962,13 +959,13 @@ Example : .covid Sri Lanka°
 ➢ Description :  Send I need Girl friend message..
 ♥ Command : need bf
 ➢ Description :  Send i need Boy friend message..
-      ╔═⎝🛡️ ALPHA 🛡️⎠═╗
+      ╔═⎝🛡️ QUEEN ALEXA  🛡️⎠═╗
        ╚ ENJOY WITH US ╝
 ╚══════════════════════
 `, rowId:"rowid4"},
         {title: '⎝🛡️ FF PACK 🛡️⎠', description:`▷▷▷▷▷▷\n\n\n
 ╔═════════════════════╗
-║         ⎝🛡️ ALPHA 🛡️⎠  
+║         ⎝🛡️ QUEEN ALEXA  🛡️⎠  
 ║         ║🖲️╚FF PACK╝🖲️║
 ║
 ╠═➢ 🖲️.ff9       ❴your text❵
@@ -1071,14 +1068,14 @@ Example : .covid Sri Lanka°
 ║send free fire logo
 ║
 ║
-║▷Creator: HIRUSHA
+║▷Creator: TIMASHA
 ║
-║   ⎝🛡️ ALPHA 🛡️⎠ 
+║   ⎝🛡️ QUEEN ALEXA  🛡️⎠ 
 ╚═════════════════════╝
 `, rowId:"rowid5"},
         {title: '⎝🛡️ Software Store 🛡️⎠', description: `▷▷▷▷▷▷\n\n\n
 ╭───────────────
-│  🖲️ SOFTWARE STORE BY ACHI BRO LK 🖲️
+│  🖲️ SOFTWARE ASHAN NAVODYA 🖲️
 │
 │  ◎Adobe Editing Softwares type =.adobe
 │  ◎Wondershare Softwares type =.ws
@@ -1088,17 +1085,17 @@ Example : .covid Sri Lanka°
 │  ◎Android Emulator Form Pc =.em
 │
 │         🖲️POWERD BY🖲️
-│        ⎝🛡️ ALPHA 🛡️⎠
+│        ⎝🛡️ QUEEN ALEXA  🛡️⎠
 ╰──────────────
 `, rowId:"rowid6"},
         {title: '⎝🛡️ Apk Store 🛡️⎠', description: `▷▷▷▷▷▷\n\n\n
 ╔═════════════════════╗
-║         ⎝🛡️ ALPHA 🛡️⎠   
+║         ⎝🛡️ QUEEN ALEXA  🛡️⎠   
 ║        ║🖲️╚APK STORE╝🖲️║
 ║
-║    Coming Soon
+║    Coming Soon APK Store
 ║
-║ ⎝🛡️ ALPHA 🛡️⎠   
+║ ⎝🛡️ QUEEN ALEXA  🛡️⎠   
 ╚═════════════════════╝
 
 `, rowId:"rowid20"},
@@ -1119,21 +1116,22 @@ Example : .covid Sri Lanka°
  │
  ╰────────────────
 `, rowId:"rowid9"},
-        {title: '⎝🛡️ABOUT Alpha BOT 🛡️⎠', description:`▷▷▷▷▷▷\n\n\n
-🖲️ Developer : Achiya
-🖲️ Bot             : ⎝🛡️ ALPHA 🛡️⎠ WhatsApp User Bot v4.0.0
+        {title: '⎝🛡️ABOUT Queen Alexa BOT 🛡️⎠', description:`▷▷▷▷▷▷\n\n\n
+🖲️ Developer : TIMA
+🖲️ Bot             : ⎝🛡️ QUEEN ALEXA  🛡️⎠ WhatsApp User Bot v4.0.0
 🖲️ Language : Sinhala & English
-🖲️ Sponcer Team : PEARL TEAM SRI LANKA
+🖲️ Sponcer Team : LOVE BOYS
 🖲️ Develop language : Node js
-🖲️ Developer no : http://wa.me/+94720603183
+🖲️ Developer no : http://wa.me/+94715264791
+🖲️ Bot Co Owner:ASHAN NAVODYA
 `, rowId:"rowid2"}
        ]
        
-       const sections = [{title: "⎝🛡️ ALPHA 🛡️⎠ CMD 🖲️ PANEL. 📛", rows: rows}]
+       const sections = [{title: "⎝🛡️ QUEEN ALEXA 🛡️⎠ QUEEN ALEXA  CMD 🖲️  📛", rows: rows}]
        
        const button = {
-        buttonText: 'Click Me▷',
-        description: "⎝🛡️ ALPHA 🛡️⎠ CMD 🖲️ PANEL. 📛",
+        buttonText: 'Click Here▷',
+        description: "⎝🛡️ QUEEN ALEXA 🛡️⎠ QUEEN ALEXA CMD 🖲️  📛",
         sections: sections,
         listType: 1
        }
