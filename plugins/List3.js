@@ -34,10 +34,10 @@ const need ="*වචනයක් අවශ්‍යයි 😭*"
 const sections = [{title: `${topText}`, rows: rows}]
 
 const button = {
- buttonText: 'Click Me!',
+ buttonText: 'Click Here!',
  description: `${topText}
  
- ⎝🛡️ ALPHA 🛡️⎠`,
+ ⎝🛡️ QUEEN ALEXA  🛡️⎠`,
  sections: sections,
  listType: 1
 }
