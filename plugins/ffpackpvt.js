@@ -4,34 +4,22 @@ const fs = require('fs');
 const axios = require('axios');
 const Config = require('../config');
 const ll ="*කමාන්ඩ් එක සමග වචනයක් අවශයයි 😪*"
-const Ln = "  *⎝🛡️ ALPHA 🛡️⎠* "
- const code = "*═════════════════════*\n            ⎝🛡️ ALPHA 🛡️⎠  \n*❖═List═❖*\n*💠.ff1       ❴your text❵*\n*send free fire logo\n💠.ff2       ❴your text❵*\n*send free fire logo*\n*💠.ff3       ❴your text❵*\n*send free fire logo\n💠.ff4       ❴your text❵*\n*send free fire logo\n💠.ff5       ❴your text❵*\n*send free fire logo\n💠.ff6       ❴your text❵*\n*send free fire logo\n💠.ff7       ❴your text❵*\n*send free fire logo\n💠.ff8       ❴your text❵*\n*send free fire logo\n💠.ff9       ❴your text❵*\n*send free fire logo\n💠.ff10       ❴your text❵*\n*send free fire logo\n💠.ff12       ❴your text❵*\n*send free fire logo\n💠.ff13       ❴your text❵*\n*send free fire logo\n💠.ff14       ❴your text❵*\n*send free fire logo\n💠.ff15       ❴your text❵*\n*send free fire logo\n💠.ff16       ❴your text❵*\n*send free fire logo\n💠.ff17       ❴your text❵*\n*send free fire logo\n💠.ff18       ❴your text❵*\n*send free fire logo\n💠.ff19       ❴your text❵*\n*send free fire logo\n💠.ff20       ❴your text❵*\n*send free fire logo\n💠.ff21       ❴your text❵*\n*send free fire logo\n💠.ff22       ❴your text❵*\n*send free fire logo\n💠.ff23       ❴your text❵*\n*send free fire logo\n💠.ff24       ❴your text❵*\n*send free fire logo\n💠.ff25       ❴your text❵*\n*send free fire logo\n💠.ff26       ❴your text❵*\n*send free fire logo\n💠.ff27       ❴your text❵*\n*send free fire logo\n💠.ff28       ❴your text❵*\n*send free fire logo\n💠.ff29       ❴your text❵*\n*send free fire logo\n💠.ff30       ❴your text❵*\n*send free fire logo\n💠.ff31       ❴your text❵*\n*send free fire logo\n💠.ff32       ❴your text❵*\n*send free fire logo\n💠.ff33       ❴your text❵*\n*send free fire logo\n💠.ff34       ❴your text❵*\n*send free fire logo\n💠.ff35       ❴your text❵*\n*send free fire logo\n💠.ff36       ❴your text❵*\n*send free fire logo\n💠.ff37       ❴your text❵*\n*send free fire logo\n💠.ff38       ❴your text❵*\n*send free fire logo\n💠.ff39       ❴your text❵*\n*send free fire logo\n💠.ff40       ❴your text❵*\n*send free fire logo\n💠.ff41       ❴your text❵*\n*send free fire logo\n💠.ff42       ❴your text❵*\n*send free fire logo\n💠.ff43       ❴your text❵*\n*send free fire logo\n💠.ff44       ❴your text❵*\n*send free fire logo\n💠.ff45       ❴your text❵*\n*send free fire logo\n💠.ff46       ❴your text❵*\n*send free fire logo\n💠.ff47       ❴your text❵*\n*send free fire logo\n💠.ff48       ❴your text❵*\n*send free fire logo\n💠.ff49       ❴your text❵*\n*send free fire logo\n💠.ff50       ❴your text❵*\n*send free fire logo\n*\n*╚═══❖══▣══▣══❖═══╝*\n\n*▷Creator: HIRUSHA*"
+const Ln = "  QUEEN ALEXA* "
+ const code = "*═════════════════════*\n            QUEEN ALEXA  \n*❖═List═❖*\n*💠.ff1       ❴your text❵*\n*send free fire logo\n💠.ff2       ❴your text❵*\n*send free fire logo*\n*💠.ff3       ❴your text❵*\n*send free fire logo\n💠.ff4       ❴your text❵*\n*send free fire logo\n💠.ff5       ❴your text❵*\n*send free fire logo\n💠.ff6       ❴your text❵*\n*send free fire logo\n💠.ff7       ❴your text❵*\n*send free fire logo\n💠.ff8       ❴your text❵*\n*send free fire logo\n💠.ff9       ❴your text❵*\n*send free fire logo\n💠.ff10       ❴your text❵*\n*send free fire logo\n💠.ff12       ❴your text❵*\n*send free fire logo\n💠.ff13       ❴your text❵*\n*send free fire logo\n💠.ff14       ❴your text❵*\n*send free fire logo\n💠.ff15       ❴your text❵*\n*send free fire logo\n💠.ff16       ❴your text❵*\n*send free fire logo\n💠.ff17       ❴your text❵*\n*send free fire logo\n💠.ff18       ❴your text❵*\n*send free fire logo\n💠.ff19       ❴your text❵*\n*send free fire logo\n💠.ff20       ❴your text❵*\n*send free fire logo\n💠.ff21       ❴your text❵*\n*send free fire logo\n💠.ff22       ❴your text❵*\n*send free fire logo\n💠.ff23       ❴your text❵*\n*send free fire logo\n💠.ff24       ❴your text❵*\n*send free fire logo\n💠.ff25       ❴your text❵*\n*send free fire logo\n💠.ff26       ❴your text❵*\n*send free fire logo\n💠.ff27       ❴your text❵*\n*send free fire logo\n💠.ff28       ❴your text❵*\n*send free fire logo\n💠.ff29       ❴your text❵*\n*send free fire logo\n💠.ff30       ❴your text❵*\n*send free fire logo\n💠.ff31       ❴your text❵*\n*send free fire logo\n💠.ff32       ❴your text❵*\n*send free fire logo\n💠.ff33       ❴your text❵*\n*send free fire logo\n💠.ff34       ❴your text❵*\n*send free fire logo\n💠.ff35       ❴your text❵*\n*send free fire logo\n💠.ff36       ❴your text❵*\n*send free fire logo\n💠.ff37       ❴your text❵*\n*send free fire logo\n💠.ff38       ❴your text❵*\n*send free fire logo\n💠.ff39       ❴your text❵*\n*send free fire logo\n💠.ff40       ❴your text❵*\n*send free fire logo\n💠.ff41       ❴your text❵*\n*send free fire logo\n💠.ff42       ❴your text❵*\n*send free fire logo\n💠.ff43       ❴your text❵*\n*send free fire logo\n💠.ff44       ❴your text❵*\n*send free fire logo\n💠.ff45       ❴your text❵*\n*send free fire logo\n💠.ff46       ❴your text❵*\n*send free fire logo\n💠.ff47       ❴your text❵*\n*send free fire logo\n💠.ff48       ❴your text❵*\n*send free fire logo\n💠.ff49       ❴your text❵*\n*send free fire logo\n💠.ff50       ❴your text❵*\n*send free fire logo\n*\n*╚═══❖══▣══▣══❖═══╝*\n\n*▷Creator: HIRUSHA*"
 
 if (Config.WORKTYPE == 'private') {
     
       Trex.addrex({pattern:  'ffpack', fromMe: true }, (async (message, match) => {
 
-    var r_text = new Array ();
+    
 
-    r_text[0] = "https://telegra.ph/file/cd6032c65c27e0510ddad.jpg";
-
-    r_text[1] = "https://telegra.ph/file/cd6032c65c27e0510ddad.jpg";
-
-    r_text[2] = "https://telegra.ph/file/cd6032c65c27e0510ddad.jpg";
-
-    r_text[3] = "https://telegra.ph/file/cd6032c65c27e0510ddad.jpg";
-
-    r_text[4] = "https://telegra.ph/file/cd6032c65c27e0510ddad.jpg";
-
-    r_text[5] = "https://telegra.ph/file/cd6032c65c27e0510ddad.jpg";
-
-    r_text[6] = "https://telegra.ph/file/cd6032c65c27e0510ddad.jpg";
+   
 
     var i = Math.floor(8*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer'})    
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `╔═════════════════════╗
-║         ⎝🛡️ ALPHA 🛡️⎠  
+║         QUEEN ALEXA  
 ║         ║🖲️╚FF PACK╝🖲️║
 ║
 ╠═➢ 🖲️.ff9       ❴your text❵
@@ -147,7 +135,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/ecf60ef31d7e75c2620fd.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
  
@@ -157,7 +145,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/db68993a2656b4748a16a.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  'QUEEN ALEXA    ' })
 
     }));
  
@@ -167,7 +155,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/4cc2fe3ca2a712d3b14cc.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: ' ⎝🛡️ ALPHA 🛡️⎠  ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: ' QUEEN ALEXA  ' })
     
     }));
  
@@ -177,7 +165,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/0a25356767c7833bbd9ca.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  '  QUEEN ALEXA  ' })
 
     }));
  
@@ -186,7 +174,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/33eb446f4132e76a2fd58.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
  
@@ -196,7 +184,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/2f7de65a46ed366a63676.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
  
@@ -206,7 +194,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/e5f8d6f2e9f9000ebe3d9.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA  ' })
 
     }));
  
@@ -216,7 +204,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/6090aadefff57762e8b35.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
  
@@ -226,7 +214,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/6ad8890337f9f2ea3b92a.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
  
@@ -236,7 +224,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/244312383300b34f99bcc.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  'QUEEN ALEXA   ' })
 
     }));
  
@@ -246,7 +234,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/b670c4eca0fafdb88a7f0.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  'QUEEN ALEXA  ' })
 
     }));
  
@@ -256,7 +244,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/95a088f7b0453d4d82b7a.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
  
@@ -266,7 +254,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/fd7500684c9ae986befc3.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA  ' })
 
     }));
  
@@ -276,7 +264,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/1e962653c4412f5271844.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  'QUEEN ALEXA   ' })
 
     }));
  
@@ -285,8 +273,7 @@ if (Config.WORKTYPE == 'private') {
         if (match[1] === '' ) return await message.sendMessage(ll);
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/24483aa07e99edad88b4c.jpg`, { responseType: 'arraybuffer' })
-
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
  
@@ -296,7 +283,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/129a6861e1efdfd0f7bca.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
  
@@ -306,7 +293,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/deab8459bd6d06b4f9421.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
  
@@ -316,7 +303,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/696f93289f32687d3b4f7.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA    ' })
 
     }));
  
@@ -326,7 +313,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/f0145f46d111ed493e62b.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA ' })
 
     }));
  
@@ -336,7 +323,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/f577262bce9b3733402ea.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:   'QUEEN ALEXA })
 
     }));
  
@@ -346,8 +333,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/099f8580a45433eb6688c.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
-
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA  })
     }));
  
   Trex.addrex({ pattern: 'ff30 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
@@ -356,7 +342,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/a1fe3fe9e295c24256ede.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
  
@@ -366,7 +352,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/2056e2cdd3a30971da0a6.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA  ' })
 
     }));
  
@@ -376,7 +362,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/c730c8c57cfccb7756dc4.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
  
@@ -386,7 +372,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/d3749dfe51e3f13012e8e.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
  
@@ -396,7 +382,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/f376a881b40c1e994d75d.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
  
@@ -406,7 +392,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/1d307457e0778ae9b0d44.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
  
@@ -416,7 +402,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/bf886fc083f66fb404ff1.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
    Trex.addrex({ pattern: 'ff37 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
@@ -425,8 +411,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/d60199bc191c261497813.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
-
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  'QUEEN ALEXA 
     }));
    Trex.addrex({ pattern: 'ff38 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
@@ -434,7 +419,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/a4c9fa2db7598d876345b.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA  ' })
 
     }));
    Trex.addrex({ pattern: 'ff39 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
@@ -443,8 +428,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/0c87d73846b138193b203.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
-
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  'QUEEN ALEXA 
     }));
    Trex.addrex({ pattern: 'ff40 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
 
@@ -452,7 +436,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/c41f0c5ec4a3874dfd7fe.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  '  QUEEN ALEXA  ' })
 
     }));
    Trex.addrex({ pattern: 'ff41 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
@@ -461,7 +445,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/8c082e45671f2726c4010.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
    Trex.addrex({ pattern: 'ff42 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
@@ -470,7 +454,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/dd660681c36a3126c590f.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
    Trex.addrex({ pattern: 'ff43 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
@@ -479,7 +463,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/6c1412d523455abb2677a.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA  ' })
 
     }));
    Trex.addrex({ pattern: 'ff44 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
@@ -488,7 +472,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/a421f4d85a38545be4926.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
    Trex.addrex({ pattern: 'ff45 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
@@ -497,7 +481,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/f0568921ca66fc0b01b83.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  'QUEEN ALEXA   ' })
 
     }));
    Trex.addrex({ pattern: 'ff46 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
@@ -506,7 +490,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/816aaa82629bfa202f3d4.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
    Trex.addrex({ pattern: 'ff47 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
@@ -515,7 +499,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/91ec01a9b6375b414803c.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
    Trex.addrex({ pattern: 'ff48 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
@@ -524,7 +508,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/5e0c5e4999b8aa21c021f.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
    Trex.addrex({ pattern: 'ff49 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
@@ -533,7 +517,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/0a9ae825b02db2cc591bb.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
    Trex.addrex({ pattern: 'ff50 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
@@ -542,7 +526,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/0df898e2ad77b8f69f91c.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
    Trex.addrex({ pattern: 'ff51 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
@@ -551,7 +535,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/e354930c0989a3077485e.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  'QUEEN ALEXA    ' })
 
     }));
    Trex.addrex({ pattern: 'ff52 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
@@ -560,7 +544,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/b41fc723da2d9835f0151.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
    Trex.addrex({ pattern: 'ff53 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
@@ -569,7 +553,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/bc64365aa73d60de3dcfd.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  'QUEEN ALEXA    ' })
 
     }));
    Trex.addrex({ pattern: 'ff54 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
@@ -578,7 +562,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/b82196ba630383df9da76.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
    Trex.addrex({ pattern: 'ff55 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
@@ -587,7 +571,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/8013933a6603cf2d75f94.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
    Trex.addrex({ pattern: 'ff56 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
@@ -596,7 +580,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/4cd1004d8c8f3a800138f.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
    Trex.addrex({ pattern: 'ff57 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
@@ -605,7 +589,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/7e9911e44f490fd5ba4bf.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
    Trex.addrex({ pattern: 'ff58 ?(.*)', fromMe: true, dontAddCommandList: true }, (async (message, match) => {
@@ -614,7 +598,7 @@ if (Config.WORKTYPE == 'private') {
 
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://telegra.ph/file/816aaa82629bfa202f3d4.jpg`, { responseType: 'arraybuffer' })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' ⎝🛡️ ALPHA 🛡️⎠   ' })
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:  ' QUEEN ALEXA   ' })
 
     }));
  }
